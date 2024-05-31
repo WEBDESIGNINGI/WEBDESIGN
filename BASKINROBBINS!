@@ -1,1 +1,229 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add Bootstrap CSS link here if needed -->
+    <title>Baskin-Robbins Neon</title>
+    <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" >
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top" style="background-color: whitesmoke;">
+     <center>
+        <img src="./Main_Logo.webp" alt style="height: 40px; width: min-content;"></center>
+    <div class="loading-overlay" style=".loading-overlay">
+      <div class="loading-text" style="text-decoration: dotted;">Loading...</div>
+        
+    </div>
+    <center>
+        <a href="BaskinRobbins.html" class="btn btn-danger">Register!<style>align-self: self-end;</style></a></nav>
+        </center>
+       
+    
+    
+  
+    <style>
+        /* Global styles */
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #111;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #ff5a5f;
+        }
+
+        /* Neon text effect */
+        .neon-text {
+            font-size: 36px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 0 0 10px #ff5a5f, 0 0 20px #ff5a5f, 0 0 30px #ff5a5f;
+        }
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color:#005EA6;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #ff5a5f;
+        }
+
+        /* News item styles */
+        .news-item {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .news-item h2 {
+            font-size: 18px;
+            margin: 0;
+            position: relative;
+            cursor: pointer;
+        }
+        .news-item h2::before {
+            content: "";
+            position: absolute;
+            width: 100%;}
+            .ice-cream-image {
+            transition: transform 0.3s ease;
+        }
+        .ice-cream-image:hover {
+            transform: translateY(-10px);
+        }
+
+        /* Card container hover effect */
+        .card-container:hover {
+            transform: scale(1.05);
+        }
+        .card-content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Nostalgic ice cream tubs carousel */
+        .nostalgia-carousel {
+            display: flex;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        .nostalgia-carousel img {
+            width: 100px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .contact-us {
+            margin-top: 40px;
+            text-align: center;
+            background-color:#DE5B9E;
+            transition: transform 0.3s ease;
+            transform: translateY(-10px);
+            border: #ff5a5f;
+            padding: 20px;
+            border-radius: 10px;
+            color: #fff;
+            @keyframes slideIn {
+            from {
+                transform: translateY(-20px);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+        }
+        .contact-us h2 {
+            font-size: 24px;
+        }
+        .contact-us p {
+            font-size: 16px;
+        }
+        .contact-us a {
+            color: #fff;
+            text-decoration: none;}
+    </style>
+</head>
+<body style="background: rgba(222,91,158,1);background: linear-gradient(90deg, rgba(222,91,158,1) 0%, rgb(0,94,166) 100%);">
+    <center>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Br4.webp" class="d-block w-100" alt="Baskin-Robbins Flavor 1">
+            </div>
+            <div class="carousel-item">
+                <img src="Br5.webp" class="d-block w-100" alt="Baskin-Robbins Flavor 2">
+            </div>
+            <div class="carousel-item">
+                <img src="Br3.webp" class="d-block w-100" alt="Baskin-Robbins Flavor 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button></center>
+
+    <center>
+        <br>
+        <div class="container">
+            <h1 class="neon-text">Your Delicious Cart! Don't lick your device</h1>
+            <div class="card card-container" style="background-image: url(download\ \(17\).jpeg); background-repeat: no-repeat; background-size: cover;">
+                <center>
+                    <img src="NaughtyNutella_414x.webp" alt="Naughty Nutella Ice Cream" class="ice-cream-image">
+                </center>
+                <h3>Naughty Nutella</h3>
+                <p>Delicious flavors</p>
+                <p class="text-muted">Price: $4.99</p>
+                <button class="btn btn-info">Add to Cart</button>
+        </div>
+        <div class="card card-container" style="background-image: url(download\ \(17\).jpeg); background-repeat: no-repeat; background-size: cover;">
+            <center>
+                <img src="NaughtyNutella_414x.webp" alt="Naughty Nutella Ice Cream" class="ice-cream-image">
+            </center>
+            <h3>Naughty Nutella</h3>
+            <p>Delicious flavors</p>
+            <p class="text-muted">Price: $4.99</p>
+            <button class="btn btn-info">Add to Cart</button>
+        </div>
+    </div>
+    <br>
+    <div style="background: rgb(131,58,180); background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);">
+    <div class="nostalgia-carousel">
+        <center>
+            <h1 class="neon-text" style="color: #005EA6;">Your Delicious Cart! Don't lick your device</h1>
+        <img src="./CottonCandy--450ml---1043sq_414x.webp" alt="Vanilla Ice Cream Tub" class="ice-cream-image" style="height: 500px; width: 500px;">
+        <img src="./MississippiMud-450ml---1043sq_414x.webp" alt="Chocolate Ice Cream Tub" class="ice-cream-image"style="height: 500px; width: 500px;">
+        <img src="Homepage_product_r1-01_414x.webp" alt="Strawberry Ice Cream Tub" class="ice-cream-image"style="height: 500px; width: 500px;">
+        <img src="Black_Current_414x.webp" alt="Strawberry Ice Cream Tub" class="ice-cream-image"style="height: 500px; width: 500px;">
+    </center>
+    </div>
+
+
+            <!-- Contact Us section -->
+            <div class="contact-us circle">
+                <h2>Contact Us</h2>
+                <p>Your opinions matter! Reach out to us:</p>
+                <p>Call Us: <a href="tel:800-859-5339">800-859-5339</a> (Monday - Friday, 8:30 AM - 5:00 PM EST)</p>
+                <p>Email Us: <a href="mailto:customerservice@dunkinbrands.com">customerservice@dunkinbrands.com</a></p>
+                <p>Visit Us: Baskin-Robbins Consumer Care, 130 Royall Street, Canton, MA 02021</p>
+                <center>
+                    <a href="BaskinRobbinsLogin.html" class="btn btn-danger">Login!<style>align-self: self-end;</style></a></nav>
+                    </center>
+            </div>
+        </div>
+        <div> <video width="320" height="240" controls aria-controls="" muted style="background-color: #ff5a5f;">
+            <source src="Sweet Birthday Greeting Card_free.mp4" type="video/mp4"></div>
+       
+    </center>
+
+    <!-- Loading overlay script -->
+    <script>
+        setTimeout(function() {
+            document.querySelector('.loading-overlay').style.display = 'none';
+        }, 3000);
+    </script>
+</body>
+</html>
 
